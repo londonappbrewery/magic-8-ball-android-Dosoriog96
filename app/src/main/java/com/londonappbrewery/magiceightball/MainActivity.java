@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button myButton = findViewById((R.id.askButton));
 
-        final int[] ballArray = {
+        final int[] ballArray = new int[] {
                 R.drawable.ball1,
                 R.drawable.ball2,
                 R.drawable.ball3,
